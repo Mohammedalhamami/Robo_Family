@@ -1,9 +1,10 @@
 import Card from "./Card";
 
 const CardList = ({ robots }) => {
-  if (true) {
-    throw new Error("NOOOOOooooo!");
-  }
+  //to test Error Boundry.
+  // if (true) {
+  //   throw new Error("NOOOOOooooo!");
+  // }
   return (
     <>
       {robots.map((user, i) => {
