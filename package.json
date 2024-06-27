@@ -24,7 +24,8 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "plugin:react-hooks/recommended"
     ]
   },
   "browserslist": {
@@ -39,5 +40,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://Mohammedalhamami.github.io/Robo_Family"
+  "homepage": "https://Mohammedalhamami.github.io/Robo_Family",
+  "devDependencies": {
+    "eslint-plugin-react-hooks": "^4.6.2"
+  }
 }

@@ -10,3 +10,16 @@ h1 {
   font-weight: 200;
   color: rgb(196, 132, 255);
 }
+.robot-counter {
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 20px;
+  font-weight: bolder;
+  color: rgb(243, 247, 44);
+}
+
+@media screen and (max-width: 768px) {
+  .robot-counter {
+    text-align: center;
+  }
+}
